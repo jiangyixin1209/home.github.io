@@ -346,6 +346,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .work li span{
   float: right;
+  margin-top: 5px;
 }
 .work li h5{
   float: left;
@@ -414,6 +415,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .sny-icon-content p{
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 /* Buttons */
