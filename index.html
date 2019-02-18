@@ -1,289 +1,102 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+
 <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>首页 - 蒋逸欣</title>
-    <meta name="description" content="蒋逸欣的首页">
-    <meta name="viewport" content="width=device-width">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-    <link href="https://cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://cdn.bootcss.com/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-    <script src="js/vendor/jquery.hashchange.min.js"></script>
-    <script src="js/vendor/jquery.easytabs.min.js"></script>
-
-    <script src="js/main.js"></script>
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JiangYiXin Home">
+    <meta name="keywords" content="JiangYiXin,Homepage">
+    <meta name="author" content="JiangYiXin">
+    <title>JiangYiXin Home</title>
+    <link href='./assets/css/youziku.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+    <link rel="icon" href="./favicon.ico">
 </head>
-  <body class="bg-fixed bg-1">
-    <div class="main-container">
-        <div class="main wrapper clearfix">
-          <!-- Header Start -->
-            <header id="header">
-                <div id="logo">
-                    <h2>
-                        蒋逸欣
-                    </h2>
-                    <h4>
-                        Python / Golang / 产品
-                    </h4>
-                </div>
-            </header>
-            <!-- Header End -->
-            <!-- Main Tab Container -->
-            <div id="tab-container" class="tab-container">
-                <!-- Tab List -->
-                <ul class='etabs'>
-                    <li class='tab' id="tab-about">
-                      <a href="#about"><i class="icon-user"></i><span> 关于我</span></a>
-                    </li>
-                    <li class='tab'>
-                      <a href="#resume"><i class="icon-file-text"></i><span> 简历</span></a>
-                    </li>
-                    <li class='tab'>
-                      <a href="#portfolio"><i class="icon-heart"></i><span> 作品集</span></a>
-                    </li>
-                    <li class='tab'>
-                      <a href="#contact"><i class="icon-envelope"></i><span> 联系我</span></a>
-                    </li>
-                </ul>
-                <!-- End Tab List -->
-                <div id="tab-data-wrap">
-                  <!-- About Tab Data -->
-                    <div id="about">
-                        <section class="clearfix">
-                            <div class="g2">
-                                <div class="photo">
-                                    <img src="images/avatar.jpg" alt="蒋逸欣">
-                                </div>
-                                <div class="info">
-                                    <h2>
-                                        蒋逸欣
-                                    </h2>
-                                    <h4>
-                                        Python / Golang / 产品
-                                    </h4>
-                                    <p>
-                                        程序猿一枚，擅长Python和Golang，略懂前端和产品。励志于做一个热爱生活之人。
-                                    </p>
-                                    <p>
-                                        Life is not a rehearsal—there is no replay button - 人生不是彩排，没有重播键
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="g1">
-                                <div class="main-links sidebar">
-                                    <ul>
-                                        <li>
-                                            <a href="#resume">我的简历</a>
-                                        </li>
-                                        <li>
-                                            <a href="#portfolio">我的作品集</a>
-                                        </li>
-                                        <li>
-                                            <a href="#contact">为你的产品雇用我</a>
-                                        </li>
-                                        <li>
-                                            <a href="http://blog.jiangyixin.top">我的博客</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="break"></div>
-                            <div class="contact-info">
-                              <div class="g1">
-                                <div class="item-box clearfix">
-                                  <i class="icon-envelope"></i>
-                                  <div class="item-data">
-                                    <h3><a href="mailto:15221613915@163.com">15221613915@163.com</a></h3>
-                                    <p>Email Address</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="g1">
-                                <div class="item-box clearfix">
-                                  <i class="icon-github"></i>
-                                  <div class="item-data">
-                                    <h3><a href="https://github.com/jiangyx3915">jiangyx3915</a></h3>
-                                    <p>Github</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="g1">
-                                <div class="item-box clearfix">
-                                  <i class="icon-signal"></i>
-                                  <div class="item-data">
-                                    <h3><a href="https://stackoverflow.com/users/8589766/jiangyx3915">jiangyx3915</a></h3>
-                                    <p>Stackoverflow</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </section><!-- content -->
-                    </div>
-                  <!-- End About Tab Data -->
-                  <!-- Resume Tab Data -->
-                    <div id="resume">
-                        <section class="clearfix">
-                            <div class="g2">
-                                <h3>
-                                    工作经历
-                                </h3>
-                                <ul class="no-list work">
-                                    <li>
-                                        <h5>
-                                            北京瑞达恒建筑咨询有限公司 - 研发工程师
-                                        </h5>
-                                        <span class="label label-info">2017.06 - 2018.06</span>
-                                        <p>
-                                            主要负责公司的RCC阅读器(electron + Vue)、慧招采APP(Cordova + Vue)和公司内部爬虫系统的开发与维护。
-                                        </p>
+
+<body>
+    <span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+    </span>
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <a href="#" title="前往 JiangYiXin 的主页" class="profilepic">
+                        <img src="./img/logo.jpg" width="80" alt="JiangYiXin`s logo" class="js-avatar iUp show" />
+                    </a>
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <a href="#" title="link to homepage for JiangYiXin">JiangYiXin</a>
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">Code Create Life</p>
+                    <hr class="panel-cover__divider iUp" />
+                    <p id="description" class="panel-cover__description iUp">如何得与凉风约，不共尘沙一并来!
+                        <br/>
+                        <strong>-「中牟道中」</strong>
+                    </p>
+                    <div class="navigation-wrapper iUp">
+                        <div>
+                            <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="/" class="blog-button">首页</a>
                                     </li>
-                                    <li>
-                                        <h5>
-                                            上海谷露软件有限公司 - Python研发工程师
-                                        </h5>
-                                        <span class="label label-danger">2018.06 - 至今</span>
-                                        <p>
-                                            主要负责公司企业ATS软件的开发与维护、第三方插件系统的开发以及参与公司二次开发的开发和沟通。
-                                        </p>
+                                    <li class="navigation__item">
+                                        <a href="https://jiangyixin.top" class="blog-button" target="_blank">博客</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://r.jiangyixin.top" class="blog-button" target="_blank">简历</a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://jiangyixin.top/about/" class="blog-button" target="_blank">关于</a>
                                     </li>
                                 </ul>
-                                <h3>
-                                    教育经历
-                                </h3>
-                                <ul class="no-list work">
-                                    <li>
-                                        <h5>
-                                            上海第二工业大学 软件工程
-                                        </h5>
-                                        <span class="label label-success">2013-2017</span>
-                                        <p></p>
+                            </nav>
+                        </div>
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="https://github.com/jiangyixin3915/" title="github" target="_blank">
+                                            <i class='social iconfont icon-github'></i>
+                                            <span class="label">github</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://juejin.im/user/5a531217f265da3e2d3346d0/activities" title="juejin" target="_blank">
+                                            <i class='social iconfont icon-juejin'></i>
+                                            <span class="label">掘金</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="navigation__item">
+                                        <a href="https://www.zhihu.com/jiangx3915/dmego/" title="zhihu" target="_blank">
+                                            <i class='social iconfont icon-zhihu'></i>
+                                            <span class="label">zhihu</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="mailto:jyx15221613915@gmail.com" title="email">
+                                            <i class='social iconfont icon-email'></i>
+                                            <span class="label">email</span>
+                                        </a>
                                     </li>
                                 </ul>
-                            </div>
-                            <div class="g1">
-                                <div class="sidebar">
-                                    <h3>
-                                        技能清单
-                                    </h3>
-                                    <h5>
-                                        Software
-                                    </h5>
-                                    <div class="meter emerald">
-                                        <span style="width: 80%"><span>Python</span></span>
-                                    </div>
-                                    <div class="meter carrot">
-                                        <span style="width: 60%"><span>Golang</span></span>
-                                    </div>
-                                    <div class="meter wisteria">
-                                        <span style="width: 60%"><span>Vue</span></span>
-                                    </div>
-                                    <div class="meter sunflower">
-                                        <span style="width: 80%"><span>Flask</span></span>
-                                    </div>
-                                    <div class="meter midnight">
-                                        <span style="width: 80%"><span>Django</span></span>
-                                    </div>
-                                    <div class="meter pomengrate">
-                                        <span style="width: 70%"><span>Redis</span></span>
-                                    </div>
-                                    <div class="meter pomengrate">
-                                        <span style="width: 70%"><span>MySQL</span></span>
-                                    </div>
-                                    <div class="meter asbestos">
-                                        <span style="width: 65%"><span>Linux</span></span>
-                                    </div>
-                                    <div class="break"></div>
-                                    <h5>自我评价</h5>
-                                    <p>
-                                        本人性格踏实、稳重、有活力，待人热情、真诚。喜欢在空余的时间看书和跑步，从中减轻平时工作中带来的压力，还可以学到书本中学不到的知识，开拓自己的眼界。
-                                    </p>
-                                    <p>工作认真负责，积极主动，能吃苦耐劳，热爱编程，喜欢学习新事物，希望从事富有挑战性的工作。</p>
-                                    <p>热爱开源，希望在技术生涯中能打造一个受欢迎的开源项目。</p>
-                                </div>
-                            </div>
-                        </section>
+                            </nav>
+                        </div>
                     </div>
-                  <!-- End Resume Tab Data -->
-                  <!-- Portfolio Tab Data -->
-                    <div id="portfolio">
-                        <section class="clearfix">
-                            <div class="g1">
-                                <div class="image">
-                                    <img src="http://lorempixel.com/306/306/business/2" alt="">
-                                    <div class="image-overlay">
-                                        <div class="image-link">
-                                            <a href="http://lorempixel.com/606/606/business/2" class="btn">Full View</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </section>
-                    </div>
-                  <!-- End Portfolio Data -->
-                  <!-- Contact Tab Data -->
-                    <div id="contact">
-                        <section class="clearfix">
-                           <div class="g1">
-                             <div class="sny-icon-box">
-                               <div class="sny-icon">
-                                  <i class="icon-globe"></i>
-                                </div>
-                                <div class="sny-icon-content">
-                                  <h4>邮箱</h4>
-                                  <p>15221613915@163.com <br> jyx15221613915@gmail.com</p>
-                                </div>
-                             </div>
-                           </div>
-                           <div class="g1">
-                             <div class="sny-icon-box">
-                               <div class="sny-icon">
-                                  <i class="icon-phone"></i>
-                                </div>
-                                <div class="sny-icon-content">
-                                  <h4>电话</h4>
-                                  <p>15221613915</p>
-                                </div>
-                             </div>
-                           </div>
-                           <div class="g1">
-                             <div class="sny-icon-box">
-                               <div class="sny-icon">
-                                  <i class="icon-user"></i>
-                                </div>
-                                <div class="sny-icon-content">
-                                  <h4>关于我</h4>
-                                  <p>热爱生活、热爱编程、热爱学习！</p>
-                                </div>
-                             </div>
-                           </div>
-                           <div class="break"></div>
-                           
-                        </section>
-                    </div>
-                  <!-- End Contact Data -->
                 </div>
             </div>
-            <!-- End Tab Container -->
-            <footer>
-                <p>
-                    Life is not a rehearsal—there is no replay button - 人生不是彩排，没有重播键
-                </p>
-            </footer>
-        </div><!-- #main -->
-    </div><!-- #main-container -->
+            <div class="panel-cover--overlay cover-slate"></div>
+        </div>
+    </header>
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/fetch.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
+
 </html>
